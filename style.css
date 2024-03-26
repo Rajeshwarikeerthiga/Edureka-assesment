@@ -1,0 +1,273 @@
+body{
+    background-image: linear-gradient(to right,rgb(255, 255, 139),rgb(255, 140, 159));
+}
+.navbar{
+    text-align: center;
+    background-color: tomato;
+    /* padding:20px; */
+    display: flex;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.main{
+    position: relative;
+    width:100%;
+    height:560px;
+   
+}
+.letter{
+    position:absolute;
+
+    height:560px;
+    width:48%;
+    
+
+}
+.letter1{
+    height:400px;
+    width:480px;
+    /* border:2px solid red; */
+    padding: 50px;
+    margin-top:50px;
+    margin-left:20px;
+
+}
+h1{
+    font-size: 60px;
+}
+.but{
+    width:220px;
+    height:40px;
+    margin-top:40px;
+}
+.image1{
+    position: absolute;
+   
+    height:560px;
+    width:48%;
+   right:0px;
+}
+.image1>img{
+    height:555px;
+    width:100%;
+}
+button{
+    background-color:tomato;
+    color:white;
+    height:25px;
+    width:150px;
+    border: none;
+}
+.second{
+   
+    background-image: linear-gradient(to right,rgb(255, 255, 139),rgb(255, 140, 159));
+margin: auto;
+width:100%;
+display:flex;
+justify-content: center;
+align-items: center;
+height:700px
+  
+}
+.images{
+    display:inline-block;
+    width:400px;
+    height:400px;
+    padding:15px;
+    /* position: relative; */
+}
+.img1{
+
+/* position: absolute; */
+width:200px;
+height:180px;
+}
+.img2{
+  
+    /* position: absolute; */
+    width:200px;
+    height:180px;
+    bottom:5px;
+}
+.img3{
+    
+    position: absolute;
+    width:200px;
+    height:370px;
+    margin-left: 10px;
+    margin-top: -185px;
+
+}
+.content{
+    display: inline-block;
+    padding:15px;
+    width:400px;
+    height:420px;
+}
+.content2{
+    padding:10px;
+width:380px;
+height:200px;
+margin-left:25px;
+margin-top:80px;
+background-color:tomato;
+}
+@media (max-width:820px) and (min-width:412px){
+    .navbar{
+        text-align: center;
+        background-color: tomato;
+        display: block;
+        overflow: hidden;
+        justify-content: center;
+    
+    }
+    nav a{
+        color:black;
+        text-decoration: none;
+        padding: 25px;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+    .main{
+        position: relative;
+        width:100%;
+        height:560px;
+       
+    }
+    .letter{
+        position:absolute;
+        display: inline-block;
+        height:400px;
+        width:50%;
+        
+    
+    }
+    .letter1{
+        height:350px;
+        width:240px;
+        /* border:2px solid red; */
+        padding: 10px;
+        margin-top:-25px;
+        margin-left:50px;
+    
+    }
+    
+    h1{
+        font-size: 32px;
+    }
+    .but{
+        width:220px;
+        height:40px;
+        margin-top:40px;
+    }
+    .image1{
+        position: absolute;
+        display: inline-block;
+        
+        height:560px;
+        width:50%;
+        left:398px;
+    }
+    button{
+        background-color:tomato;
+        color:white;
+        height:25px;
+        width:150px;
+        border: none;
+    }
+    .images{
+        display:inline-block;
+        width:400px;
+        height:420px;
+        padding:10px;
+        position: relative;
+    }
+    .content{
+        display: inline-block;
+        padding:10px;
+        width:320px;
+        height:420px;
+    }
+    .content2{
+        padding:10px;
+    width:100%;
+    height:200px;
+    margin-left:0px;
+    margin-top:80px;
+    background-color:tomato;
+    }
+    
+}
+@media (max-width:412px) and (min-width:0px){
+    .main{
+        width:100%;
+     
+        position:relative;
+    }
+    .letter{
+        position:absolute;
+        display: block;
+        
+        height:500px;
+        width:100%;
+    }
+    .letter1{
+        height:400px;
+        width:100%;
+       margin:0px;
+    
+    }
+    .but{
+        width:220px;
+        height:40px;
+        margin-top:10px;
+    }
+    .image1{
+       display:none;     
+    }
+    .second{
+    
+    background-image: linear-gradient(to right,rgb(255, 255, 218),pink);
+    width:100%;
+    height:700px;
+    display:inline-block;
+    }
+    .images{
+        width:100%;
+        padding:5px;  
+      
+    }
+    .img1{
+        width:400px;
+        height:400px;
+       
+        
+        }
+        .img2{
+            display: block;
+            width:400px;
+            height:400px;
+            
+        }
+        .img3{
+        display:none;
+            
+        }
+        .content{
+            width:400px;
+            height:420px;
+            margin-top:-45px;
+        }
+        .content2{
+        width:350px;
+        height:200px;
+        background-color:tomato;
+        }
+    }
